@@ -2,33 +2,39 @@
     --main-text: #333;
     --main-bg: #fff;
 }
+
 @media (prefers-color-scheme: dark) {
     :root {
         --main-text: #ddd;
         --main-bg: #000;
     }
 }
+
 body {
     color: var(--main-text);
     background-color: var(--main-bg);
-    transition: .5s;
 }
 
 .wrap {
     text-align: left;
     padding: 2rem;
-    font-family: -apple-system, 'BlinkMacSystemFont',  Sans-Serif;
+    font-family: -apple-system, 'BlinkMacSystemFont', Sans-Serif;
 }
+
 h1 {
     font-size: 2.5rem;
 }
+
 p {
     font-size: 1.5rem;
     line-height: 1.5;
 }
-h1, p {
+
+h1,
+p {
     margin-bottom: 1rem;
 }
+
 a {
     color: #0bd
 }
